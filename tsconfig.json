@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "CommonJS",
+    "lib": ["dom", "esnext"],
+    "jsx": "preserve",
+    "strict": true,
+    "pretty": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    /* Additional Checks */
+    /* "noUnusedLocals": true */
+    /* "noUnusedParameters": true */
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    /* Module Resolution Options */
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "outDir": "release/app/dist",
+    "baseUrl": "./src",
+    "paths": {
+      "@*": ["./*"],
+      "@assets": ["../assets"]
+    },
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "moduleResolution": "node",
+    "isolatedModules": true
+  },
+  "exclude": ["test", "release/build", "release/app/dist", ".erb/dll"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/stores/slices/nft"]
+}
