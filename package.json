@@ -1,6 +1,11 @@
 {
   "name": "blue-chip-maker-components",
   "version": "1.0",
+  "description": "Question builder from question config",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
