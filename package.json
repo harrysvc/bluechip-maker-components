@@ -1,6 +1,6 @@
 {
-  "name": "blue-chip-maker",
-  "private": true,
+  "name": "blue-chip-maker-components",
+  "version": "1.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
